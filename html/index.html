@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-store | Ecommerce Website Demo</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        <div class="header">
+            <div class="container">
+                <!----  Navgation Bar ---->
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="../images/logo.png" alt="logo" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="../images/cart.png" width="30px" height="30px"></a>
+                    <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+
+                <!----  header  ---->
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Give Your Feet<br>A New Buddy!</h1>
+                        <p>Keep your feet on the ground, but let your heart soar as high as it will.<br>Refuse to be average or to surrender to the chill of your spiritual environment.<br>--Arthur Helps</p>
+                        <a href="" class="btn">Explore Now &#8594;</a>
+                    </div> 
+                    <div class="col-2">
+                        <img src="../images/header.png">
+                    </div>
+                </div>     
+            </div>      
+        </div>
+        
+        <!------ featured categories ------->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="../images/category-1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="../images/category-2.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="../images/category-3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="small-container">
+            <!------ featured products ------->
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product-details.html"><img src="../images/product-1.jpg"></a>
+                    <a href="product-details.html"><h4>Nike Air Max Exosense SE</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$120.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-2.jpg">
+                    <h4>Nike Air Force 1 White Black</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$115.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-3.jpg">
+                    <h4>Nike Air Zoom Structure 22</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$85.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-4.jpg">
+                    <h4>Nike Air Max 270</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$160.00</p>
+                </div>
+            </div>
+            
+            <!------ Latest products ------->
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="../images/product-5.jpg">
+                    <h4>Ultraboost DNA Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$180.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-6.jpg">
+                    <h4>Ultraboost LTD Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$180.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-7.jpg">
+                    <h4>Ultraboost 20 Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$180.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-8.jpg">
+                    <h4>Powerlift 4 Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$160.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="../images/product-9.jpg">
+                    <h4>Digital Terrain Chuck 70</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$95.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-10.jpg">
+                    <h4>Converse Color Pro Leather</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$70.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-11.jpg">
+                    <h4>Converse Color Chuck 70</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$85.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="../images/product-12.jpg">
+                    <h4>Digital Terrain Jack Purcell</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$85.00</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-------- Offer ---------->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="../images/exclusive.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on E-store</p>
+                        <h1>AIR JORDAN 13 STARFISH</h1>
+                        <small>Incorporating a color rooted in recent Jordan Brand history—Starfish Orange—this take on the Air Jordan 13 places an OG, quilted-leather upper atop a familiar paw-like outsole inspired by the panther. Complete with a holographic cat's eye on the heel and a carbon fiber shank plate, this retro arrives with OG packaging.<br></small>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----------- testimonial --------->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem Ipsum is simply dummy test of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="../images/user-1.png">
+                        <h3>Sean Parker</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>The top of the shoe is different from what I'm used to wearing inhad to get used to not having a protected toe but the perfect fitted shoe felt amazing.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="../images/user-2.png">
+                        <h3>Mike Smith</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Had an awesome experience with E-store. Their shoes fit right and they have great vendors all over the world.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="../images/user-3.png">
+                        <h3>Mabel Joe</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--------- Brands ----------->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="../images/logo-godrej.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="../images/logo-oppo.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="../images/logo-coca-cola.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="../images/logo-paypal.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="../images/logo-philips.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----------- footer ----------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="../images/play-store.png">
+                            <img src="../images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="../images/logo.PNG">
+                        <p>Our Purpose Is To Sustaninably Make the Pleasure and Benefit To Your Life.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyrigth 2020 - E-store</p>
+            </div>
+        </div>
+        
+        <!------- js for toggle menu -------------> 
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight = "0px";
+            
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else{
+                    MenuItems.style.maxHeight = "0px";  
+                }
+                
+            }
+        </script>
+  </body>
+</html>
